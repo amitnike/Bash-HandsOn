@@ -1,0 +1,5 @@
+INFO: Application started
+WARN: Disk usage high
+ERROR: Database connection failed
+INFO: User logged in
+ERROR: Critical server failure
