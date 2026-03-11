@@ -1,10 +1,11 @@
 #!/bin/bash
 
-#Write a script that displays a random fortune message. 
-#Use a loop and pre-defined fortunes stored in an array for real-time display.
+# Random Fortune Message Script
+# This script displays a random fortune message from a pre-defined list.
+# It uses an array to store fortunes, a function to select one randomly,
+# and a loop to display a new fortune every 5 seconds.
 
-
-#create an array of size 25 with pre-defined fortunes 
+# Create an array with pre-defined fortunes (25 messages)
 FORTUNES=(
     "You will have a great day!"
     "A surprise is waiting for you around the corner."
@@ -31,20 +32,22 @@ FORTUNES=(
     "An exciting journey is ahead of you."
 )
 
-# Function to get a random fortune
+# Function to display a random fortune
 display_fortune() {
     # Get the size of the fortunes array
     size=${#FORTUNES[@]}
-    # The RANDOM variable generates a random number, and we use modulo to ensure it falls within the bounds of the array size.
+
+    # Generate a random index using the built-in RANDOM variable
+    # Modulo ensures the index stays within the array size
     INDEX=$((RANDOM % size))
-    # Display the random fortune
+
+    # Display the fortune at the random index
     echo "${FORTUNES[INDEX]}"
 }
 
-# Loop to display a random fortune every 5 seconds
-
+# Infinite loop to display a random fortune every 5 seconds
 while true; do
-    clear
-    display_fortune
-    sleep 5
+    clear                # Clear the screen for a clean display
+    display_fortune      # Call the function to show a random fortune
+    sleep 5              # Wait for 5 seconds before showing the next fortune
 done

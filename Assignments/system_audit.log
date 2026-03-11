@@ -1,0 +1,132 @@
+System Audit Report - Wed 11 Mar 2026 09:38:23 AM IST
+----------------------------------------
+User Accounts:
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+systemd-network
+systemd-resolve
+messagebus
+systemd-timesync
+syslog
+_apt
+tss
+uuidd
+systemd-oom
+tcpdump
+avahi-autoipd
+usbmux
+dnsmasq
+kernoops
+avahi
+cups-pk-helper
+rtkit
+whoopsie
+sssd
+speech-dispatcher
+nm-openvpn
+saned
+colord
+geoclue
+pulse
+gnome-initial-setup
+hplip
+gdm
+amit
+snapd-range-524288-root
+snap_daemon
+fwupd-refresh
+dhcpcd
+postfix
+----------------------------------------
+Last Login Times:
+Username         Port     From                                       Latest
+root                                                                **Never logged in**
+daemon                                                              **Never logged in**
+bin                                                                 **Never logged in**
+sys                                                                 **Never logged in**
+sync                                                                **Never logged in**
+games                                                               **Never logged in**
+man                                                                 **Never logged in**
+lp                                                                  **Never logged in**
+mail                                                                **Never logged in**
+news                                                                **Never logged in**
+uucp                                                                **Never logged in**
+proxy                                                               **Never logged in**
+www-data                                                            **Never logged in**
+backup                                                              **Never logged in**
+list                                                                **Never logged in**
+irc                                                                 **Never logged in**
+gnats                                                               **Never logged in**
+nobody                                                              **Never logged in**
+systemd-network                                                     **Never logged in**
+systemd-resolve                                                     **Never logged in**
+messagebus                                                          **Never logged in**
+systemd-timesync                                                    **Never logged in**
+syslog                                                              **Never logged in**
+_apt                                                                **Never logged in**
+tss                                                                 **Never logged in**
+uuidd                                                               **Never logged in**
+systemd-oom                                                         **Never logged in**
+tcpdump                                                             **Never logged in**
+avahi-autoipd                                                       **Never logged in**
+usbmux                                                              **Never logged in**
+dnsmasq                                                             **Never logged in**
+kernoops                                                            **Never logged in**
+avahi                                                               **Never logged in**
+cups-pk-helper                                                      **Never logged in**
+rtkit                                                               **Never logged in**
+whoopsie                                                            **Never logged in**
+sssd                                                                **Never logged in**
+speech-dispatcher                                                    **Never logged in**
+nm-openvpn                                                          **Never logged in**
+saned                                                               **Never logged in**
+colord                                                              **Never logged in**
+geoclue                                                             **Never logged in**
+pulse                                                               **Never logged in**
+gnome-initial-setup                                                    **Never logged in**
+hplip                                                               **Never logged in**
+gdm                                                                 **Never logged in**
+amit                                                                Mon Feb 20 15:22:27 +0530 2023
+snapd-range-524288-root                                                    **Never logged in**
+snap_daemon                                                         **Never logged in**
+fwupd-refresh                                                       **Never logged in**
+dhcpcd                                                              **Never logged in**
+postfix                                                             **Never logged in**
+----------------------------------------
+World-writable files in /etc:
+World-writable files in /var:
+  3943450      4 -rw-rw-rw-   1 root     root         2787 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb.rb
+  3943458      4 -rw-rw-rw-   1 root     root         3102 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/grammars/primitive.citrus
+  3943455      4 -rw-rw-rw-   1 root     root          727 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/grammars/array.citrus
+  3943457      4 -rw-rw-rw-   1 root     root          244 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/grammars/helper.citrus
+  3943456      4 -rw-rw-rw-   1 root     root         1274 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/grammars/document.citrus
+  3943464      4 -rw-rw-rw-   1 root     root         1182 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/table_array.rb
+  3943462      4 -rw-rw-rw-   1 root     root         1476 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/string.rb
+  3943460      4 -rw-rw-rw-   1 root     root         1561 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/keyvalue.rb
+  3943465      4 -rw-rw-rw-   1 root     root           69 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/version.rb
+  3943453      4 -rw-rw-rw-   1 root     root         2789 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/dumper.rb
+  3943463      4 -rw-rw-rw-   1 root     root         1175 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/table.rb
+  3943454      4 -rw-rw-rw-   1 root     root          350 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/errors.rb
+  3943451      4 -rw-rw-rw-   1 root     root          153 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/array.rb
+  3943452      4 -rw-rw-rw-   1 root     root         1015 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/datetime.rb
+  3943461      4 -rw-rw-rw-   1 root     root         1091 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/parser.rb
+  3943459      4 -rw-rw-rw-   1 root     root          559 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/lib/toml-rb/inline_table.rb
+  3943448      4 -rw-rw-rw-   1 root     root         1046 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/LICENSE
+  3943449      4 -rw-rw-rw-   1 root     root         2891 May  1  2023 /var/lib/gems/3.0.0/gems/toml-rb-2.2.0/README.md
+----------------------------------------
