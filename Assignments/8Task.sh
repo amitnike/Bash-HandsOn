@@ -17,8 +17,8 @@ display_system_info() {
     # Display the system hostname
     echo "Hostname: $(hostname)"
 
-    # Display the operating system kernel version
-    echo "Operating System Version: $(uname -r)"
+    # Display the operating system
+    echo "Operating System : $(uname -o)"
 }
 
 # Main loop to update system information every minute

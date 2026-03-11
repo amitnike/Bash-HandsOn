@@ -3,7 +3,8 @@ fgfdgfdgfg
 dfgfdggfdgfdgfggggggggggggggggggggggffggggggggg
 fddgfdgfdg
 fdfdsfdfdsf
-
+fdgfhdfhfhhdfh
+sgdfhdhhfhfdhf
 dsfdfdsff
 dsfdfdsfdsfdf
 dsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggdsfdsssssssssssssss
@@ -96,4 +97,4 @@ Objective: Create a script that audits user accounts and file permissions in a s
     - Focus: Scripting logic, conditional cron execution, persistence for traffic tracking.
 2. **Emailing System Logs:**
     - Task: Set up a cron job to compress system logs daily at 2:30 AM, delete compressed log files older than 30 days, and email a report of successful and failed compressions to the system administrator.
-    - Focus: File manipulation, error handling, email integration
+    - Focus: File manipulation, error handling, email integration3
