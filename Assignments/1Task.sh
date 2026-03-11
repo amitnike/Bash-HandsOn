@@ -22,7 +22,7 @@ while true; do
     TIME=$(date +"%I:%M %p")
 
     # Display the personalized greeting with the current day, date, and time
-    echo "Good Morning, $USER_NAME! It's $DAY, $DATE $TIME."
+    echo "Good Day, $USER_NAME! It's $DAY, $DATE $TIME."
 
     # Wait for 60 seconds before repeating the loop
     sleep 60
