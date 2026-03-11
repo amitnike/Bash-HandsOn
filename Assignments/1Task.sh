@@ -1,7 +1,11 @@
 #!/bin/bash
 
+#Time Announcer: Write a script that displays a personalized greeting along with the current time every minute. 
+#For example, "Good morning, Alice! It's Wednesday, 27 March 2024 11:15 AM." (Use date and a loop to update every minute).
+
 #1. Prompt the user for their name.
 echo "What is your name?"
+#
 read USER_NAME
 
 while true; do
